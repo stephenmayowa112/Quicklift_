@@ -1,0 +1,99 @@
+.how-wrapper{
+  padding: 10px 0;
+}
+.how-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.how-ctn{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.how-right{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.how-right>:first-child{
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  justify-self: center;
+}
+.how-content{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.how-content>h4{
+  font-size: 24px;
+  font-weight: 600;
+}
+.how-content>p{
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.row{
+  display: flex;
+  gap: 120px;
+}
+.image-ctn{
+ position: relative;
+ width: 125px;
+}
+
+.image-ctn>:first-child{
+  width: 100%;
+}
+
+.inner-img{
+  position: absolute;
+  width: 41px;
+  top: 30%;
+  left: 35%;
+}
+.inner-img>img{
+  width: 100%;
+}
+
+.how-icon{
+  font-size: 41px;
+}
+.red{
+  color: #E32A2C;
+}
+.yellow{
+  color:#FFBC018C;
+}
+.darkBlue{
+  color: #0031AED9;
+}
+@media screen and (max-width: 767px){
+  .how-container{
+    flex-direction:column;
+    
+  }
+  .how-content{
+    align-self: center;
+    width: 300px;
+  
+   text-align: center;
+   gap: 0px;
+
+  }
+  .how-left>img{
+width: 470px;
+  }
+  .image-ctn{
+    align-self: center;
+   
+  }
+  .row{
+    flex-direction: column;
+  }
+}

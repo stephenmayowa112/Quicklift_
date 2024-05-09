@@ -1,0 +1,72 @@
+.h-container{
+    background-color: black;
+    color: white;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+   
+    z-index: 3;
+  }
+  
+  .h-logo{
+    font-weight: 900;
+    font-size: 2rem;
+   
+  }
+  
+  .h-nav{
+    display: flex;
+    gap: 2rem;
+    font-weight: 500;
+    font-size: 1.6rem;
+  }
+  
+  .h-nav>span{
+    padding: 10px 25px;
+  }
+  
+  .h-nav>:last-child button{
+    border: 3px solid #0031AE;
+    border-radius: 20px;
+    align-self: center;
+    padding: 10px 25px;
+  }
+  .hamburger{
+    border: none;
+    background-color: transparent;
+  }
+  .hamburger-icon{
+    display: none;
+    font-size: 3rem;
+    color: white;
+  }
+  @media (max-width: 900px) {
+    .h-nav{
+      width: 50%;
+      flex-direction: column;
+      position: absolute;
+      top: 6.3rem;
+      right: 0;
+      background-color: rgba(207, 207, 207, 0.8);
+      transition: all 0.3s ease-in;
+    }
+    .open{
+      display: block;
+    }
+    .hamburger-icon{
+      display: block;
+    }
+    .h-nav>span{
+      text-align: center;
+    }
+  
+    .h-nav>span:hover{
+      color:  rgb(121, 121, 121);
+      background-color: white;
+      width: 100%;
+      scale: 1.1;
+    }
+  
+    
+  }

@@ -1,0 +1,93 @@
+.c-wrapper {
+  padding: 100px 0;
+  background-color: #0031ae12;
+  padding-bottom: 190px;
+}
+
+.c-details {
+  text-align: center;
+}
+
+.c-customer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.c-row {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  overflow: hidden; /* Add overflow to control sliding effect */
+}
+
+.customer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: #fff;
+  padding: 20px 40px;
+  border-radius: 20px;
+  box-shadow: 4px 4px rgba(200, 200, 200, 0.5);
+  min-width: 300px; /* Adjust card width for responsiveness */
+}
+
+.customer > :first-child {
+  display: flex;
+  gap: 20px;
+}
+
+.customer-name {
+  font-size: 14px;
+}
+
+.customer-desc,
+.date {
+  font-size: 11px;
+}
+
+.stars {
+  color: #0031ae;
+}
+
+.stars > :last-child {
+  color: #c9c9c9;
+}
+
+@media (max-width: 900px) {
+  .c-customer {
+    flex-direction: column;
+  }
+  .c-row {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .customer {
+    flex: 1;
+    padding: 15px 25px;
+    max-width: calc(50% - 20px);
+  }
+  .customer > :first-child {
+    flex-direction: column;
+    align-items: center;
+  }
+  .customer-name {
+    font-size: 12px;
+  }
+  .customer-desc,
+  .date {
+    font-size: 10px;
+  }
+  .customer {
+    gap: 10px;
+  }
+  .customer > :first-child {
+    gap: 1px;
+  }
+
+  .c-wrapper {
+    padding-bottom: 180px;
+  }
+}

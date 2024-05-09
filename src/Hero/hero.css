@@ -1,0 +1,148 @@
+.hero-wrapper {
+  background: url("../assets/images/hero-bg.jpg");
+  background-size: cover;
+  height: 80vh;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+
+.hero-container {
+  background-color: rgba(3, 3, 3, 0.6);
+  position: relative;
+  background-clip: border-box;
+  color: white;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  display: flex;
+}
+
+.hero-ctn {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  margin-left: 14%;
+  justify-content: center;
+  z-index: 99;
+}
+
+.light {
+  width: 1087.06px;
+  height: 240px;
+  background-clip: content-box;
+  background: rgba(219, 219, 219, 0.17);
+  transform: skewY(49deg);
+  position: absolute;
+  z-index: 1;
+  top: 500px;
+  left: 0;
+}
+
+.hero-time {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.hero-details > :nth-child(1) {
+  font-size: 50px;
+  font-weight: 700;
+}
+.hero-details > :last-child {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.hero-detailsPara{
+  width: 900px;
+}
+
+.hero-button {
+  display: flex;
+  gap: 10px;
+}
+
+.hero-button > :nth-child(1) {
+  border: none;
+  background-color: #0031ae;
+}
+
+.button {
+  font-weight: 800;
+  font-size: 16px;
+  padding: 15px;
+  gap: 10px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+.button1:hover{
+  background-color: white;
+  color: #0031ae;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.button2:hover{
+  background-color:white;
+  color: #0031ae;
+  cursor: pointer;
+  border: none;
+  transition: 1s;
+}
+
+/* RESPONSIVE DESIGN*/
+
+@media screen and (max-width: 767px) {
+  .hero-wrapper {
+    background-size: cover;
+    height: 70vh;
+    background-position: 70%;
+  }
+  
+  .hero-ctn{
+   align-items: center;
+   justify-self: center;
+   margin: auto ;
+  
+  }
+
+  .hero-time {
+    font-size: 16px;
+    font-weight: 700;
+    color: #0031ae;
+  border-radius: 10px;
+padding: 3px 5px;
+ background-color: white;
+    /* display: none; */
+  }
+
+  .hero-details > :nth-child(1) {
+    font-size: 23px;
+    text-align: center;
+  }
+
+  .hero-details > :last-child {
+    font-size: 13px;
+    text-align: center;
+    
+  }
+
+  .hero-button {
+    gap: 10px;
+    
+  }
+ 
+
+  .button {
+    font-weight: 700;
+    font-size: 12px;
+    padding: 10px;
+    gap: 8px; 
+  }
+  .hero-detailsPara{
+    width: 300px;
+  }
+}
+
+

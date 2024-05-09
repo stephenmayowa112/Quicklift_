@@ -1,0 +1,100 @@
+
+
+.d-container{
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.right{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+.right>p{
+  text-align: center;
+
+}
+.d-where{
+  display: flex;
+  gap: 30px;
+  margin: 0 auto;
+}
+.img-container{
+margin-top: -150px;
+
+}
+
+.phone2Image{
+  height: 600px;
+}
+
+@media screen and (max-width:900px){
+  
+  .phone2Image{
+    margin-left: 20px;
+    margin-top: 40px;
+  
+  }
+  .d-where>img{
+    width: 130px;
+     
+  }
+
+  .d-whereHeader{
+    text-align: center;
+}
+ 
+  
+  .d-container{
+    gap: 20px;
+  }
+  .right{
+    width: 300px;
+
+
+  }
+}
+
+@media screen and (max-width:900px){
+  
+  .phone2Image{
+    height:350px;
+    margin-top: 80px;
+    margin-left: 5px;
+  
+  }
+  .img-container{
+    margin-left: 0px;
+  }
+  .d-where>img{
+    width: 80px;
+     
+  }
+  
+  .d-whereHeader{
+    text-align: center;
+    font-size: 18px;
+}
+.d-where{
+  gap: 10px;
+}
+.d-wherePara{
+  font-size: 10px;
+}
+ 
+  
+  .d-container{
+    gap: 10px;
+  }
+  .right{
+    width: 150px;
+    gap: 0px;
+   
+
+
+  }
+}
+
