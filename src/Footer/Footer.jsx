@@ -1,4 +1,4 @@
-import "./footer.css";
+import "./Footer.css";
 import { CiSearch } from "react-icons/ci";
 
 function Footer() {

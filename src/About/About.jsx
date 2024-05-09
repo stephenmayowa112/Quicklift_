@@ -42,7 +42,7 @@ function About() {
               <span>Easy and emergency solution</span></div>
               <div>
               <FaCheckCircle className="icon" />
-              <span>Easy and emergency solution</span></div>
+              <span>Fast arrival time</span></div>
               <div>
               <FaCheckCircle className="icon" />
               <span>Easy and emergency solution</span></div>
