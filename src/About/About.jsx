@@ -1,4 +1,4 @@
-import "./about.css";
+import "./About.css";
 import image1 from '../assets/images/about.png'
 import image from '../assets/images/about-1.jpeg'
 import { FaCheckCircle } from "react-icons/fa";
