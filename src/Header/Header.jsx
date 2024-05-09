@@ -1,4 +1,4 @@
-import './header.css'
+import './Header.css'
 import { GiHamburgerMenu } from "react-icons/gi";
 
   
