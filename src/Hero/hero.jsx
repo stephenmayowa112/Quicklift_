@@ -13,7 +13,8 @@ function Hero() {
               <br /> With Quicklift
             </h2>
             <p className="hero-detailsPara">
-            QuickLift offers comfortable rides that get you there fast, all at affordable prices. Book your ride with a few taps and enjoy a hassle-free journey. Download QuickLift today and experience the difference!
+            QuickLift offers comfortable rides that get you there fast, all at affordable prices.<br/> 
+            Book your ride with a few taps and enjoy a hassle-free journey.<br/> Download QuickLift today and experience the difference!
             </p>
           </div>
           <div className="hero-button">
