@@ -5,6 +5,7 @@
     position: relative;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
    
     z-index: 4;
   }
@@ -38,7 +39,7 @@
   .h-nav{
     display: flex;
     gap: 1.2rem;
-    margin-right: -350px;
+    margin-right: 0px;
     font-weight: 500;
     font-size: 1.5rem;
     padding-top: 4px;
@@ -55,16 +56,30 @@
     padding: 10px 25px;
   }
   .hamburger{
+    /* border: none;
+    background-color: transparent; */
+
+    display: none; /* hide the hamburger menu by default */
     border: none;
     background-color: transparent;
+    cursor: pointer;
   }
   .hamburger-icon{
     display: none;
     font-size: 3rem;
     color: white;
+
+    
   }
   @media (max-width: 900px) {
-    .h-nav{
+    
+
+ 
+
+
+
+
+    /* .h-nav{
       width: 50%;
       flex-direction: column;
       position: absolute;
@@ -89,6 +104,54 @@
       width: 100%;
       scale: 1.1;
     }
-  
-    
+   */
+
+   .hamburger {
+    display: block; /* show the hamburger menu on smaller screens */
+    position: absolute;
+    top: 0.05rem;
+    right: 2rem;
+    z-index: 5;
   }
+  .hamburger-icon {
+    display: block; /* show the hamburger icon on smaller screens */
+  }
+  .hamburger-icon:hover {
+    color: #0031AE; /* change the color of the hamburger icon on hover */
+  }
+  .hamburger.active {
+    transform: rotate(45deg); /* rotate the hamburger icon when the menu is open */
+  }
+  .hamburger.active .hamburger-icon {
+    color: #0031AE; /* change the color of the hamburger icon when the menu is open */
+  }
+  .h-nav {
+    width: 30%; /* make the navigation menu full width on smaller screens */
+    flex-direction: column;
+    position: absolute;
+    top: 6.3rem;
+    right: 40%;
+    margin-right: -280px;
+    background-color: rgba(12, 12, 12, 0.8);
+    transition: all 0.3s ease-in;
+    border-radius: 10px;
+   
+  }
+  .h-nav>span {
+    text-align: center;
+    font-size: 20px;
+  }
+  .h-nav>span:hover {
+    color: rgb(121, 121, 121);
+    background-color:#0031AE;
+    width: 50%;
+    scale: 0.9;
+    transition: 0.8s;
+  }
+  
+  .h-nav>:last-child:hover{
+    background-color: transparent;
+  }
+
+}
+  

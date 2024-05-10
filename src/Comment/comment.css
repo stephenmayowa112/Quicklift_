@@ -61,7 +61,7 @@
   color: #c9c9c9;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 767px) {
   .c-customer {
     flex-direction: column;
   }
@@ -100,3 +100,34 @@
     padding-bottom: 180px;
   }
 }
+
+  @media (max-width: 900px) {
+
+    .customer {
+      flex: 1;
+      padding: 15px 25px;
+      max-width: calc(50% - 40px);
+    }
+    .customer > :first-child {
+      flex-direction: column;
+      align-items: center;
+    }
+    .customer-name {
+      font-size: 10px;
+    }
+    .customer-desc,
+    .date {
+      font-size: 9px;
+    }
+    .customer {
+      gap: 9px;
+      align-self: center
+    }
+    .customer > :first-child {
+      gap: 1px;
+    }
+  
+    .c-wrapper {
+      padding-bottom: 160px;
+    }
+  }

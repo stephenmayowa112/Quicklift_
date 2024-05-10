@@ -17,9 +17,7 @@ function Comment() {
             <div className="c-details">
               <h2>Clients Comments</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                gravida  <br />
-                quis nisl ut semper. nisl ut semper nisl ut semper
+              Read genuine reviews from our satisfied customers and discover why<br/> Quicklift is the go-to ride-hailing service for comfort, reliability, and convenience
               </p>
             </div>
             <div className="c-customer">

@@ -8,10 +8,7 @@ function Footer() {
         <div className="f-ctn">
           <h2 id="f-header">Quick Lift</h2>
           <p>
-            Lorem Ipsum hddndn idtewu ioljl <br />
-            jdjdip Lorem Ipsum hddndn idtewu <br />
-            ioljl jdjdipLorem Ipsum hddndn <br />
-            idtewu ioljl jdjdip
+          Revolutionizing logistics with fast, reliable, and secure delivery solutions. Trust us to lift your business to new heights
           </p>
 
           <div className="f-search">
