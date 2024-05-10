@@ -16,29 +16,23 @@ function SignUp() {
           <div className="s-left">
             <div className="ctn">
               <div className="design" />
-                <h3>We offer fair fares for trips</h3>
+                <h3>Enjoy your trips in comfort</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing
-                  <br />
-                  elit. Ut gravida quis nisl ut semper. Quisque nibh
+                Quicklift's well-maintained vehicles and expert drivers guarantee a smooth, comfortable ride, every time, every journey
+                </p>
+            </div>
+            <div className="ctn">
+              <div className="design" />
+                <h3>Light speed booking time</h3>
+                <p>
+                Quicklift's lightning-fast booking process gets you on the move in seconds, no waiting, no hassle, just swift travel!
                 </p>
             </div>
             <div className="ctn">
               <div className="design" />
                 <h3>We offer fair fares for trips</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing
-                  <br />
-                  elit. Ut gravida quis nisl ut semper. Quisque nibh
-                </p>
-            </div>
-            <div className="ctn">
-              <div className="design" />
-                <h3>We offer fair fares for trips</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing
-                  <br />
-                  elit. Ut gravida quis nisl ut semper. Quisque nibh
+                Quicklift offers transparent and competitive pricing, <br/>ensuring fair fares for a comfortable and stress-free journey
                 </p>
             </div>
           </div>
@@ -51,11 +45,11 @@ function SignUp() {
               </div>
               <div className="circle mabu">
                 <img src={mabu} alt="" />
-                <span>Anotoella Messi</span>
+                <span>Mabu</span>
               </div>
               <div className="circle swift">
                 <img src={swift} alt="" />
-                <span>Anotoella Messi</span>
+                <span>&nbsp;Swift</span>
               </div>
               <div></div>
               <div></div>

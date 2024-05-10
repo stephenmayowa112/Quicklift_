@@ -19,13 +19,13 @@ import React, { useState } from 'react';
         <div className="h-container">
           <div className="h-logo">QuickLift</div>
           <div className="h-nav" style={getMenuStyles(menuOpen)}>
-            <span>Home</span>
-            <span>About</span>
-            <span>Contact</span>
-            <span>
-              <button>
-              Download            
-              </button>
+            <span><a href="#hero-wrapper">Home</a></span>
+            <span><a href="#a-wrapper">About</a> </span>
+            <span ><a href="#f-wrapper">Contact</a></span>
+            <span >
+             <a href="https://play.google.com/"> <button className='downloadbtn'>
+              Download           
+              </button></a> 
               </span>
 
           </div>

@@ -30,11 +30,7 @@ function How(){
                 </div>
                 <h4>Set Destination</h4>
                 <p>
-                Lorem ipsum dolor sit amet,
-                <br />consectetur adipiscing elit.Ut gravida 
-                <br /> quis nisl ut semper. Quisque nibh quis 
-                nisl ut semper. 
-                <br />Quisque nibhquis nislu semper. Quisque nibh
+                Book a ride with Quicklift: <br/>Select your pickup point, destination, and <br/>preferred car type, and get a driver at your doorstep.
                 </p>
               </div>
               <div className="how-content">
@@ -46,8 +42,7 @@ function How(){
                 </div>
                 <h4>Explore the Ride</h4>
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                <br /> Ut gravida quis nisl ut semper. Quisque nibh quis nisl <br />ut semper. Quisque nibhquis nisl ut semper. Quisque nibh
+                View your driver's profile, track your ride in <br/> real-time,and receive estimated arrival<br/>  times and updates with Quicklift's user-friendly interface.
                 </p>
               </div>
             </div>
@@ -62,8 +57,7 @@ function How(){
                 </div>
                 <h4>Track Journey</h4>
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                <br /> Ut gravida quis nisl ut semper. Quisque nibh quis nisl <br />ut semper. Quisque nibhquis nisl ut semper. Quisque nibh
+                Follow your journey's progress, receive live updates,<br/> and stay informed with Quicklift's GPS tracking, ensuring a safe and hassle-free ride
                 </p>
               </div>
               <div className="how-content">
@@ -75,8 +69,7 @@ function How(){
                 </div>
                 <h4>Simple Payment</h4>
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                <br /> Ut gravida quis nisl ut semper. Quisque nibh quis nisl <br />ut semper. Quisque nibhquis nisl ut semper. Quisque nibh
+                Quicklift offers convenient payment options: securely store cards,<br/> use mobile payments, or pay with cash, making transactions easy and stress-free
                 </p>
               </div>
             </div>

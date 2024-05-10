@@ -3,7 +3,7 @@ import { CiSearch } from "react-icons/ci";
 
 function Footer() {
   return (
-    <div className="f-wrapper">
+    <div className="f-wrapper" id="f-wrapper">
       <div className="f-container">
         <div className="f-ctn">
           <h2 id="f-header">Quick Lift</h2>

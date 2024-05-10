@@ -39,19 +39,16 @@ function Comment() {
                     </div>
                   </div>
                   <p className="customer-desc">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  <br /> Ut gravida quis nisl ut semper. Quisque nibh Lorem ipsum
-                  <br /> dolor sit amet, consectetur adipiscing elit. Ut gravida quis
-                  <br /> nisl ut semper. Quisque nibh
+                  With Quicklift, I've experienced prompt arrivals,<br/> clean cars, and friendly drivers, <br/>making every journey a pleasure, thank you Quicklift!
                   </p>
                   <span className="date">
                   28 October 2023
                   </span>
                 </div>
-                <div className="customer">
+                <div className="customer ">
                   <div>
                     <img src={rihanna} alt="" />
-                    <h4 className="customer-name">Gabrielle Union</h4>
+                    <h4 className="customer-name">Rihanna</h4>
                    
                     <div className="stars">
                       <FaStar/>
@@ -63,10 +60,7 @@ function Comment() {
                    
                   </div>
                   <p className="customer-desc">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  <br /> Ut gravida quis nisl ut semper. Quisque nibh Lorem ipsum
-                  <br /> dolor sit amet, consectetur adipiscing elit. Ut gravida quis
-                  <br /> nisl ut semper. Quisque nibh
+                  With Quicklift, I've enjoyed seamless rides, accurate ETAs, and a<br/> user-friendly app,their service is top-notch, keep it up!
                   </p>
                   <span className="date">
                   28 October 2023
@@ -75,18 +69,21 @@ function Comment() {
                 <div className="customer">
                   <div>
                     <img src={superman} alt="" />
-                    <h4 className="customer-name">Gabrielle Union</h4>
+                    <h4 className="customer-name">Rudiger</h4>
                   
+                    
                     <div className="stars">
-                    /
+                      <FaStar/>
+                      <FaStar/>
+                      <FaStar/>
+                      <FaStar />
+                      <FaStar  className="one"/>
                     </div>
+                    
                    
                   </div>
                   <p className="customer-desc">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  <br /> Ut gravida quis nisl ut semper. Quisque nibh Lorem ipsum
-                  <br /> dolor sit amet, consectetur adipiscing elit. Ut gravida quis
-                  <br /> nisl ut semper. Quisque nibh
+                  Quicklift's affordable prices and hassle-free booking <br/>process have made them my go-to ride-hailing<br/> service, I'm so impressed!
                   </p>
                   <span className="date">
                   28 October 2023
@@ -94,10 +91,10 @@ function Comment() {
                 </div>
               </div>
               <div className="c-row c-row2">
-                <div className="customer">
+                <div className="customer customer2">
                   <div>
                     <img src={tems} alt="" />
-                    <h4 className="customer-name">Gabrielle Union</h4>
+                    <h4 className="customer-name">Superman</h4>
                     <div className="stars">
                       <FaStar/>
                       <FaStar/>
@@ -107,19 +104,16 @@ function Comment() {
                     </div>
                   </div>
                   <p className="customer-desc">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  <br /> Ut gravida quis nisl ut semper. Quisque nibh Lorem ipsum
-                  <br /> dolor sit amet, consectetur adipiscing elit. Ut gravida quis
-                  <br /> nisl ut semper. Quisque nibh
+                  "Quicklift's reliable drivers and comfortable rides have made<br></br> my daily commute stress-free, I can't recommend them enough!
                   </p>
                   <span className="date">
                   28 October 2023
                   </span>
                 </div>
-                <div className="customer">
+                <div className="customer customer2">
                   <div>
                     <img src={loisLane} alt="" />
-                    <h4 className="customer-name">Gabrielle Union</h4>
+                    <h4 className="customer-name">Lois-lane</h4>
                     
                     <div className="stars">
                       <FaStar/>
@@ -131,16 +125,13 @@ function Comment() {
                    
                   </div>
                   <p className="customer-desc">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  <br /> Ut gravida quis nisl ut semper. Quisque nibh Lorem ipsum
-                  <br /> dolor sit amet, consectetur adipiscing elit. Ut gravida quis
-                  <br /> nisl ut semper. Quisque nibh
+                  Quicklift's user-friendly app and excellent customer <br/>service have exceeded my expectations, I'm a loyal customer for life
                   </p>
                   <span className="date">
                   28 October 2023
                   </span>
                 </div>
-                <div className="customer">
+                <div className="customer customer2">
                   <div>
                     <img src={kenneth} alt="" />
                     <h4 className="customer-name">Gabrielle Union</h4> 
@@ -153,10 +144,7 @@ function Comment() {
                     </div>
                   </div>
                   <p className="customer-desc">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  <br /> Ut gravida quis nisl ut semper. Quisque nibh Lorem ipsum
-                  <br /> dolor sit amet, consectetur adipiscing elit. Ut gravida quis
-                  <br /> nisl ut semper. Quisque nibh
+                  Quicklift's drivers are always courteous and helpful, making me<br/> feel safe and valued, I highly recommend their services!
                   </p>
                   <span className="date">
                   28 October 2023

@@ -73,7 +73,8 @@
 }
 
 .circle{
-  font-size: 2rem;
+
+  font-size: 0.8rem;
   position:absolute;
   background-color:#F6F6F6;
   display: inline-flex;
@@ -94,7 +95,7 @@
 
 .mabu{
   bottom: 30%;
-  left: -140px;
+  left: -100px;
 }
 .mabu > img{
   border-radius: 100%;
@@ -102,7 +103,7 @@
 
 .swift{
   top: 50%;
-  right: -130px;
+  right: -40px;
 }
 
 .sign-btn{
@@ -120,4 +121,8 @@
   .s-ctn{
     flex-direction: column;
   }  
+
+  .circle{
+    display: none;
+  }
 }

@@ -1,7 +1,7 @@
 .hero-wrapper {
   background: url("../assets/images/hero-bg.jpg");
   background-size: cover;
-  height: 80vh;
+  height: 95vh;
   background-repeat: no-repeat;
   overflow: hidden;
 }

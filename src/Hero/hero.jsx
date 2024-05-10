@@ -1,7 +1,7 @@
 import "./hero.css";
 function Hero() {
   return (
-    <div className="hero-wrapper">
+    <div className="hero-wrapper" id="hero-wrapper">
       <div className="hero-container">
         <div className="light" />
        
@@ -17,7 +17,7 @@ function Hero() {
             </p>
           </div>
           <div className="hero-button">
-            <button className="button button1">DOWNLOAD APP</button>
+            <button className="button button1"><a href="https://play.google.com/">DOWNLOAD APP</a></button>
             <button className="button button2">LEARN MORE</button>
           </div>
         </div>

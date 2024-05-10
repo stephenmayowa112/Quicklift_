@@ -6,7 +6,7 @@ import { FaCheckCircle } from "react-icons/fa";
 
 function About() {
   return (
-    <div className="a-wrapper">
+    <div className="a-wrapper" id="a-wrapper">
       <div className="a-container">
         <div className="a-left">
           <div className="image-container">
@@ -23,11 +23,7 @@ function About() {
             <h2>Most trusted ride hailing
               <br /> company in Nigeria </h2>
             <p>
-              Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit. Ut gravida quis nisl ut
-              semper. Quisque nibh orci. <br />
-              Lorem ipsum dolor sit amet, quis nisl ut semper. Quisque nibh
-              orci. Lorem ipsum
+            Quicklift: Revolutionizing transportation in Nigeria, one ride at a time, with safe, reliable, and affordable cab services at your doorstep
             </p>
           </div>
           <div className="a-lower">
@@ -45,7 +41,7 @@ function About() {
               <span>Fast arrival time</span></div>
               <div>
               <FaCheckCircle className="icon" />
-              <span>Easy and emergency solution</span></div>
+              <span>No delay on booking time</span></div>
             </div>
           </div>
         </div>
