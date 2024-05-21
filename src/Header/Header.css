@@ -8,6 +8,7 @@
     padding: 5px;
    
     z-index: 4;
+   
   }
   a{
     text-decoration: none;
@@ -138,7 +139,7 @@
     background-color: rgba(12, 12, 12, 0.8);
     transition: all 0.3s ease-in;
     border-radius: 10px;
-   
+    overflow: hidden; /* Add this line to hide overflow */
   }
   .h-nav>span {
     text-align: center;
