@@ -139,7 +139,7 @@
     background-color: rgba(12, 12, 12, 0.8);
     transition: all 0.3s ease-in;
     border-radius: 10px;
-    overflow: hidden; /* Add this line to hide overflow */
+   
   }
   .h-nav>span {
     text-align: center;
@@ -156,18 +156,29 @@
   .h-nav>:last-child:hover{
     background-color: transparent;
   }
+  body{
+    overflow-x: hidden;
+  }
 
 }
 @media (max-width: 800px) {
   .h-nav{
     margin-right: -260px;
+    
+  }
+  body{
+    overflow-x: hidden;
   }
 
  
 }
 @media (max-width: 600px){
+  body{
+    overflow-x: hidden;
+  }
   .h-nav{
     margin-right: -160px;
+    overflow: hidden;
     
   }
   .h-nav>span {
